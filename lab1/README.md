@@ -1,8 +1,8 @@
-# 🧪 Lab 1: Text Tokenization
+#  Lab 1: Text Tokenization
 
 *Natural Language Processing (NLP) – Tokenization Pipeline*
 
-## 📌 Giới thiệu
+##  Giới thiệu
 
 Tokenization (tách từ) là bước tiền xử lý cơ bản và quan trọng nhất trong NLP. Hầu như mọi pipeline xử lý văn bản — từ thống kê truyền thống đến deep learning — đều bắt đầu bằng việc chuyển văn bản thô thành các đơn vị nhỏ hơn gọi là **tokens**.
 
@@ -15,7 +15,7 @@ Lab 1 trong project này giúp bạn:
 
 ---
 
-## 📁 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
 ```
 <PROJECT_ROOT>/
@@ -33,9 +33,9 @@ Lab 1 trong project này giúp bạn:
 
 ---
 
-## 🎯 Mục tiêu của Lab
+##  Mục tiêu của Lab
 
-### ✔ Task 1 — Simple Tokenizer
+###  Task 1 — Simple Tokenizer
 
 * Tạo interface Tokenizer.
 * Implement SimpleTokenizer:
@@ -52,7 +52,7 @@ Ví dụ:
 
 ---
 
-### ✔ Task 2 — Regex-based Tokenizer (Bonus)
+###  Task 2 — Regex-based Tokenizer (Bonus)
 
 Regex mặc định:
 
@@ -69,7 +69,7 @@ Tokenizer này xử lý tốt:
 
 ---
 
-### ✔ Task 3 — Tokenization trên Dataset UD_English-EWT
+###  Task 3 — Tokenization trên Dataset UD_English-EWT
 
 ```
 dataset_path = "<PATH_TO_UD_ENGLISH_EWT>"
@@ -94,7 +94,7 @@ python main.py
 
 ---
 
-## 📊 Kết quả kỳ vọng
+##  Kết quả kỳ vọng
 
 Ví dụ với câu:
 
