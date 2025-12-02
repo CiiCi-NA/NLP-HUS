@@ -1,6 +1,8 @@
 import re
-from lab1.src.core.interfaces import Tokenizer
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from core.interfaces import Tokenizer
 class RegexTokenizer(Tokenizer):
     def tokenize(self, text: str) -> list[str]:
         pattern = re.compile(r"\w+|[^\w\s]", re.UNICODE)

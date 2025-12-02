@@ -1,5 +1,10 @@
 from typing import List
-from lab1.src.core.interfaces import Tokenizer
+
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from core.interfaces import Tokenizer
+
 
 class SimpleTokenizer(Tokenizer):
     def tokenize(self, text: str) -> List[str]:

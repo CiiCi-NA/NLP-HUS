@@ -1,0 +1,18 @@
+--- Tokenizing Sample Text from UD_English-EWT ---
+Original Sample: # newdoc id = weblog-juancole.com_juancole_20051126063000_ENG_20051126_063000 
+# sent_id = weblog-jua...
+SimpleTokenizer Output (first 20 tokens): ['#', 'newdoc', 'id', '=', 'weblog-juancole.com_juancole_20051126063000_eng_20051126_063000', '#', 'sent_id', '=', 'weblog-juancole.com_juancole_20051126063000_eng_20051126_063000-0001', '#', 'newpar', 'id', '=', 'weblog-juancole.com_juancole_20051126063000_eng_20051126_063000-p0001', '#', 'text', '=', 'al-zaman', ':', 'american']      
+RegexTokenizer Output (first 20 tokens): ['#', 'newdoc', 'id', '=', 'weblog', '-', 'juancole', '.', 'com_juancole_20051126063000_eng_20051126_063000', '#', 'sent_id', '=', 'weblog', '-', 'juancole', '.', 'com_juancole_20051126063000_eng_20051126_063000', '-', '0001', '#']
+=== Testing Tokenizers on Sample Sentences ===
+
+Sentence 1: 'Hello, world! This is a test.'
+  SimpleTokenizer: ['hello,', 'world!', 'this', 'is', 'a', 'test.']
+  RegexTokenizer:  ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
+
+Sentence 2: 'NLP is fascinating... isn't it?'
+  SimpleTokenizer: ['nlp', 'is', 'fascinating...', "isn't", 'it?']
+  RegexTokenizer:  ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']     
+
+Sentence 3: 'Let's see how it handles 123 numbers and punctuation!'
+  SimpleTokenizer: ["let's", 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation!']
+  RegexTokenizer:  ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']

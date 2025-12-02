@@ -1,6 +1,6 @@
-from lab1.src.preprocessing.simple_tokenizer import SimpleTokenizer
-from lab1.src.preprocessing.regex_tokenizer import RegexTokenizer
-from lab1.src.core.dataset_loaders import load_raw_text_data
+from src.preprocessing.simple_tokenizer import SimpleTokenizer
+from src.preprocessing.regex_tokenizer import RegexTokenizer
+from src.core.dataset_loaders import load_raw_text_data
 
 def main():
     # Khởi tạo các tokenizer
