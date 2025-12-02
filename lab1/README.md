@@ -15,23 +15,7 @@ Lab 1 trong project này giúp bạn:
 
 ---
 
-##  Cấu trúc thư mục
 
-```
-<PROJECT_ROOT>/
-│── src/
-│   ├── core/
-│   │   ├── interfaces.py            
-│   │   └── dataset_loaders.py       
-│   ├── preprocessing/
-│   │   ├── simple_tokenizer.py      
-│   │   └── regex_tokenizer.py       
-│── main.py                           
-│── requirements.txt                  
-└── README.md
-```
-
----
 
 ##  Mục tiêu của Lab
 
