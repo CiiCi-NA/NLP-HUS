@@ -1,8 +1,5 @@
 # LAB 2 – COUNT VECTORIZATION (BAG-OF-WORDS)
 
-**Môn học:** Xử lý Ngôn ngữ Tự nhiên (NLP)  
-**Sinh viên:** _(Điền tên)_  
-**Ngày:** _(Điền ngày)_
 
 ---
 
