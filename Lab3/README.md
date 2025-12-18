@@ -1,8 +1,8 @@
-# NLP Lab 4: Word Embeddings
+# NLP Lab 3: Word Embeddings
 
 ## Giới thiệu
 
-Đây là dự án Lab 4 về Word Embeddings trong khóa học NLP. Dự án bao gồm triển khai các mô hình nhúng từ (word embeddings) sử dụng Gensim và Spark, cùng với trực quan hóa.
+Đây là dự án Lab 33 về Word Embeddings trong khóa học NLP. Dự án bao gồm triển khai các mô hình nhúng từ (word embeddings) sử dụng Gensim và Spark, cùng với trực quan hóa.
 
 ## Các bước thực hiện
 
